@@ -1,0 +1,59 @@
+/* Os estilos serão globais */
+
+body {
+    background-color: lightpink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+img {
+    border-radius: 5px;     
+}
+
+.titulo {
+    color: pink;
+    text-align: center;
+}
+
+.paragrafo {
+    font-style: italic;
+}
+
+/* .mensagem {
+    background-color: lightcoral;
+    padding: 8px;
+    border: 1 px solid coral;
+    border-radius: 8px;
+    width: 500px;
+    margin: 8px auto;
+} */
+
+/*margin auto só funciona se tiver uma width definida*/
+
+h1 {
+    text-align: center;
+    color: rgb(220, 38, 69);
+}
+
+
+.postagem {
+    background-color: lightcoral;
+    padding: 8px;
+    border: 1 px solid coral;
+    border-radius: 8px;
+    width: 250px;
+    margin: 50px auto;
+    
+}
+
+
+.blog{
+    display: flex;
+}
+
+.postagem img {
+    display: block;
+    margin: 0 auto;
+}

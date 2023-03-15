@@ -1,0 +1,13 @@
+package.json: Arquivo presente em qualquer projeto baseado em Node. Ela descreve todo o projeto: metadados, dependências e versionamento.
+
+package-lock.json: O objetivo deste arquivo é garantir que o projeto será rodado em outra máquina com as mesmas versões de dependências da máquina que gerou o projeto originalmente.
+
+README.md: Arquivo no qual podemos adicionar alguma instrução sobre o projeto, ou descrever ele com imagens e etc. Pode ser usado para documentar o projeto.
+
+.gitignore: Os projetos geram arquivos muitas vezes de log, histórico, arquivos pesados. O gitignore é um arquivo que indica para o git ignorar estes arquivos.
+
+node_modules: É um conjunto de pastas gigantesco que guarda os códigos das dependências que um projeto utiliza. Ou seja, todo o código do React está nessa pasta, incluindo outras dependências que instalarmos.
+
+public/: Pasta com as configurações do aplicativo. As mudanças aqui vão refletir na versão final do projeto. O index.html aqui é o arquivo html base para nossa SPA. Os outros alteram metadados ou visual/aparência final.
+
+src/: Pasta com todo o código do projeto, aqui que iremos criar os arquivos e estruturar pastas do projeto.
