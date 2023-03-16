@@ -1,0 +1,36 @@
+ input {    
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.strongTitulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: blueviolet;
+    justify-content: center;    
+}
+
+.resumo {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nome, .email {
+    width: 300px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

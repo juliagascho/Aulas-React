@@ -1,4 +1,4 @@
-import { ProductCard } from "../ProductCard/Card";
+import { ProductCard } from "../Product/Product";
 
 import imageMusic1 from "../../assets/images/1.png";
 import imageMusic2 from "../../assets/images/2.png";
