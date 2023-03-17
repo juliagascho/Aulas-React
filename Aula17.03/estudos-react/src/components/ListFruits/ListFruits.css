@@ -1,0 +1,11 @@
+.frutas input {
+    margin: 20px;
+    font-size: 15px;
+    width: 400px;
+    height: 50px;
+}
+
+.frutas img {
+    width: 200px;
+    height: 200px;
+}

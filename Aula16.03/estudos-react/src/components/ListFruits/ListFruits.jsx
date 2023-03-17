@@ -2,6 +2,8 @@ import { frutas } from "../../data/frutas.js";
 
 export function ListFruits() {
 
+    const [resultados, setResultados] = useState([ ]);
+
     for (nome of frutas) {
         const index = frutas.indexOf("Ma")
         if (index !-- -1){
