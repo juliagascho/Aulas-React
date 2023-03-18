@@ -10,6 +10,8 @@ import { ListFruits } from "./components/ListFruits/ListFruits";
 import { Sorteio } from "./components/Sorteio/Sorteio";
 import { Abas } from "./components/Abas/Abas";
 import { QuestaoQuiz } from "./components/QuestaoQuiz/QuestaoQuiz";
+import { CalcImc } from "./components/Desafios18.03/CalculadoraIMC/CalculadoraIMC";
+import { Carousel } from "./components/Desafios18.03/Carousel/Carousel";
 
 export function App() {
   return (
@@ -26,7 +28,9 @@ export function App() {
       {/* <ListFruits /> */}
       {/* <Sorteio /> */}
       {/* <Abas /> */}
-      <QuestaoQuiz />
+      {/* <QuestaoQuiz /> */}
+      {/* <CalcImc /> */}
+      <Carousel />
     </>
   );
 }
