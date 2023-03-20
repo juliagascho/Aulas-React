@@ -28,21 +28,26 @@ export function CalculadoraIMC() {
         const valor = pesoFloat / (alturaFloat ** 2);
         setImc(valor.toFixed(2));
     }
+
+    function limpar() {
+        setPeso("");
+        setAltura("");
+        setImc("");
+    }
       
       
     return (
         <>
             <div className="calculadoraIMC">
                 <h2>Calcule seu IMC aqui:</h2>
-                <input type="text" placeholder="Digite seu peso (Kg)" onChange={obterPeso}></input>
-                <input type="text" placeholder="Digite sua altura" onChange={obterAltura}></input>
+                <input type="text" placeholder="Digite seu peso (Kg)" onChange={obterPeso} value={peso}></input>
+                <input type="text" placeholder="Digite sua altura" onChange={obterAltura} value={altura}></input>
               
                 <br />
                 <button onClick={calculaImc}>Calcular</button>
+                <button onClick={limpar}>Limpar</button>
                 <br />
-                {imc && (
-                <strong>Seu peso é de {peso}kg e você tem {altura}m, seu IMC é: {imc}</strong>
-                )}
+                {(imc !== Infinity && !isNaN(imc)) && <p>O seu IMC é: {imc.toFixed(2)}</p>}
             </div>
         </>
     );
